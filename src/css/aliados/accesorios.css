@@ -75,7 +75,7 @@ header{
     display: flex;
     width: 400%;
     padding: 0;
-    animation: slide 16s infinite alternate ease-in-out;
+    animation: slide 16s infinite ease-in-out;
   }  
   
 .banner li{

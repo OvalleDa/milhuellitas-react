@@ -76,7 +76,7 @@ header{
     display: flex;
     width: 400%;
     padding: 0;
-    animation: slide 16s infinite alternate ease-in-out;
+    animation: slide 16s infinite  ease-in-out;
   }  
   
 .banner li{
@@ -126,7 +126,7 @@ header{
 }
 
 .a1{
-  background-image: url(aliados/comida1.jpg);
+  background-image: url(../../assets/img/aliados/comida1.jpg);
   background-size: 250px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -150,51 +150,51 @@ header{
 
 
 .a2{
-  background-image: url(aliados/comidacasera2.jpg);
+  background-image: url(../../assets/img/aliados/comidacasera2.jpg);
 }
 
 .a3{
-  background-image: url(aliados/comidacasera.png);
+  background-image: url(../../assets/img/aliados/comidacasera.png);
 }
 
 
 .a4{
 
-  background-image: url(aliados/comidacasera4.png);
+  background-image: url(../../assets/img/aliados/comidacasera4.png);
 
 }
 
 .a5{
-  background-image: url(aliados/comidacasera6.jpg);
+  background-image: url(../../assets/img/aliados/comidacasera6.jpg);
 
 }
 
 .a6{
-  background-image: url(aliados/comidacasera8.png);
+  background-image: url(../../assets/img/aliados/comidacasera8.png);
 }
 
 .a7{
-  background-image: url(aliados/comidacasera14.png);
+  background-image: url(../../assets/img/aliados/comidacasera14.png);
 }
 
 .a8{
-  background-image: url(aliados/comidacasera15.png);
+  background-image: url(../../assets/img/aliados/comidacasera15.png);
 }
 
 .a9{
-  background-image: url(aliados/comidacasera10.png);
+  background-image: url(../../assets/img/aliados/comidacasera10.png);
 }
 
 .a10{
-  background-image: url(aliados/comidacasera3.png);
+  background-image: url(../../assets/img/aliados/comidacasera3.png);
 }
 
 .a11{
-  background-image: url(aliados/comidacasera12.png);
+  background-image: url(../../assets/img/aliados/comidacasera12.png);
 }
 
 .a12{
-  background-image: url(aliados/comidacasera11.png);
+  background-image: url(../../assets/img/aliados/comidacasera11.png);
 }
 
 
