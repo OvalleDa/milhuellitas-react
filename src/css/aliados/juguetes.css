@@ -465,7 +465,7 @@ header{
 
   .titleSection{
 
-    margin-top: 20px;
+    margin-top: 80px;
     grid-column: 1/5;
     font-size: 1.5em;
   }
@@ -479,7 +479,7 @@ header{
   
   .buttonsBack{
     grid-column: 1/5;
-    margin: 20px 20px;
+    margin-bottom: 70px;
     display: grid;
     grid-template-columns: repeat(8,1fr);
     

@@ -59,8 +59,6 @@ header{
   
   main{
     grid-column: 1/5;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
     margin-top: 100px;
   }
 
@@ -125,7 +123,7 @@ header{
 }
 
 .a1{
-  background-image: url(aliados/comedores.png);
+  background-image: url(../../assets/img/aliados/comedores.png);
   background-size: 250px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -149,51 +147,51 @@ header{
 
 
 .a2{
-  background-image: url(aliados/peluches.jpg);
+  background-image: url(../../assets/img/aliados/peluches.jpg)
 }
 
 .a3{
-  background-image: url(aliados/correa.jpg);
+  background-image: url(../../assets/img/aliados/correa.jpg)
 }
 
 
 .a4{
 
-  background-image: url(aliados/gym.jpg);
+  background-image: url(../../assets/img/aliados/gym.jpg);
 
 }
 
 .a5{
-  background-image: url(aliados/camagato.jpg);
+  background-image: url(../../assets/img/aliados/camagato.jpg);
 
 }
 
 .a6{
-  background-image: url(aliados/kits.jpg);
+  background-image: url(../../assets/img/aliados/kits.jpg);
 }
 
 .a7{
-  background-image: url(aliados/pañoleta.jpg);
+  background-image: url(../../assets/img/aliados/pañoleta.jpg);
 }
 
 .a8{
-  background-image: url(aliados/transportador.jpg);
+  background-image: url(../../assets/img/aliados/transportador.jpg);
 }
 
 .a9{
-  background-image: url(aliados/retractil.jpg);
+  background-image: url(../../assets/img/aliados/retractil.jpg);
 }
 
 .a10{
-  background-image: url(aliados/arenero.jpg);
+  background-image: url(../../assets/img/aliados/arenero.jpg);
 }
 
 .a11{
-  background-image: url(aliados/arnes.jpg);
+  background-image: url(../../assets/img/aliados/arnes.jpg);
 }
 
 .a12{
-  background-image: url(aliados/placas.jpg);
+  background-image: url(../../assets/img/aliados/placas.jpg);
 }
 
 
@@ -316,7 +314,7 @@ header{
   }
   
   .a1{
-    background-image: url(aliados/comedores.png);
+    background-image: url(../../assets/img/aliados/comedores.png);
     background-size: 250px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -454,8 +452,8 @@ header{
   }
   
   .content a{
-    background-color: #FECBCA;
-    color: rgb(51, 51, 51);
+    background-color: var(--blue-dark-color);
+    color: rgb(255, 255, 255);
     font-weight: 800;
     border-radius: 10px;
     font-size: 20px;
@@ -470,7 +468,7 @@ header{
 
   .titleSection{
 
-    margin-top: 20px;
+    margin-top: 80px;
     grid-column: 1/5;
     font-size: 1.5em;
   }
@@ -484,7 +482,7 @@ header{
   
   .buttonsBack{
     grid-column: 1/5;
-    margin: 20px 20px;
+    margin-bottom: 70px;
     display: grid;
     grid-template-columns: repeat(8,1fr);
     column-gap: 40px;
