@@ -33,7 +33,7 @@ nav {
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    background-image: url(img/header-backgrond.png);
+    background-image: url(../../assets/img/aliados/header-backgrond.png);
     position: fixed;
     top: 0;
     z-index: 1;
@@ -75,7 +75,7 @@ header{
     display: flex;
     width: 400%;
     padding: 0;
-    animation: slide 16s infinite alternate ease-in-out;
+    animation: slide 16s infinite ease-in-out;
   }  
   
 .banner li{
@@ -125,7 +125,7 @@ header{
 }
 
 .a1{
-  background-image: url(aliados/cuidados3.jpg);
+  background-image: url(../../assets/img/aliados/cuidados3.jpg);
   background-size: 250px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -149,51 +149,51 @@ header{
 
 
 .a2{
-  background-image: url(aliados/cuidados2.jpg);
+  background-image: url(../../assets/img/aliados/cuidados2.jpg);
 }
 
 .a3{
-  background-image: url(aliados/cuidados4.jpg);
+  background-image: url(../../assets/img/aliados/cuidados4.jpg);
 }
 
 
 .a4{
 
-  background-image: url(aliados/cuidados7.jpg);
+  background-image: url(../../assets/img/aliados/cuidados7.jpg);
 
 }
 
 .a5{
-  background-image: url(aliados/cuidados6.jpg);
+  background-image: url(../../assets/img/aliados/cuidados6.jpg);
 
 }
 
 .a6{
-  background-image: url(aliados/cuidados8.png);
+  background-image: url(../../assets/img/aliados/cuidados8.png);
 }
 
 .a7{
-  background-image: url(aliados/cuidados9.png);
+  background-image: url(../../assets/img/aliados/cuidados9.png);
 }
 
 .a8{
-  background-image: url(aliados/cuidados10.jpg);
+  background-image: url(../../assets/img/aliados/cuidados10.jpg);
 }
 
 .a9{
-  background-image: url(aliados/cuidados11.jpg);
+  background-image: url(../../assets/img/aliados/cuidados11.jpg);
 }
 
 .a10{
-  background-image: url(aliados/cuidados12.jpg);
+  background-image: url(../../assets/img/aliados/cuidados12.jpg);
 }
 
 .a11{
-  background-image: url(aliados/cuidados13.jpg);
+  background-image: url(../../assets/img/aliados/cuidados13.jpg);
 }
 
 .a12{
-  background-image: url(aliados/cuidados14.jpg);
+  background-image: url(../../assets/img/aliados/cuidados14.jpg);
 }
 
 
