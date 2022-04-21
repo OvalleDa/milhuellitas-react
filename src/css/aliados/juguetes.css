@@ -33,7 +33,7 @@ nav {
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    background-image: url(img/header-backgrond.png);
+    background-image: url(../../assets/img/aliados/header-backgrond.png);
     position: fixed;
     top: 0;
     z-index: 1;
@@ -125,7 +125,7 @@ header{
 }
 
 .a1{
-  background-image: url(aliados/jueguetes1.jpg);
+  background-image: url(../../assets/img/aliados/jueguetes1.png);
   background-size: 250px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -149,51 +149,51 @@ header{
 
 
 .a2{
-  background-image: url(aliados/jueguetes2.jpg);
+  background-image: url(../../assets/img/aliados/jueguetes2.jpg);
 }
 
 .a3{
-  background-image: url(aliados/jueguetes3.png);
+  background-image: url(../../assets/img/aliados/jueguetes3.png);
 }
 
 
 .a4{
 
-  background-image: url(aliados/juguetes4.png);
+  background-image: url(../../assets/img/aliados/juguetes4.png)
 
 }
 
 .a5{
-  background-image: url(aliados/juguetes5.png);
+  background-image: url(../../assets/img/aliados/juguetes5.png);
 
 }
 
 .a6{
-  background-image: url(aliados/juguetes6.png);
+  background-image: url(../../assets/img/aliados/juguetes6.png);
 }
 
 .a7{
-  background-image: url(aliados/juguetes8.png);
+  background-image: url(../../assets/img/aliados/juguetes8.png);
 }
 
 .a8{
-  background-image: url(aliados/juguetes7.png);
+  background-image: url(../../assets/img/aliados/juguetes7.png);
 }
 
 .a9{
-  background-image: url(aliados/juguetes9.jpg);
+  background-image: url(../../assets/img/aliados/juguetes9.jpg);
 }
 
 .a10{
-  background-image: url(aliados/juguetes10.png);
+  background-image: url(../../assets/img/aliados/juguetes10.png);
 }
 
 .a11{
-  background-image: url(aliados/juguetes11.png);
+  background-image: url(../../assets/img/aliados/juguetes11.png);
 }
 
 .a12{
-  background-image: url(aliados/juguetes12.jpg);
+  background-image: url(../../assets/img/aliados/juguetes12.jpg);
 }
 
 
