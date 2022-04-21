@@ -33,7 +33,7 @@ nav {
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    background-image: url(../assets/img/aliados/header-backgrond.png);
+    background-image: url(../../assets/img/aliados/header-backgrond.png);
     position: fixed;
     top: 0;
     z-index: 1;
