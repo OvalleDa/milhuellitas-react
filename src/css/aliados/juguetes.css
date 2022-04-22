@@ -243,15 +243,18 @@ header{
 }
 
 .titleSection{
-  margin-top: 10px;
+
+  margin-top:50px;
+  margin-bottom: 40px;
   grid-column: 1/5;
-  font-size: 0.9em;
-  margin: 10px ;
+  font-size: 1.5em;
 }
 
+
 .titleSection p{
+  grid-column: 1/5;
   margin-top: 10px;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 .buttonsBack{
@@ -265,7 +268,7 @@ header{
 
 .buttonsBack a{
   color: rgb(255, 255, 255);
-  padding: 10px;
+  padding: 4px;
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 0.8em;
@@ -343,7 +346,7 @@ header{
   .content h2{
     color: rgb(255, 255, 255);
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 32px;
   }
   
@@ -445,7 +448,7 @@ header{
   .content h2{
     color: rgb(255, 255, 255);
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 32px;
   }
   

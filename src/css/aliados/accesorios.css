@@ -256,15 +256,13 @@ header{
   border-left: none;
   border-right: none;
   grid-column: 1/5;
-  margin-top: 20px;
-  margin-bottom: 20px;
+
 }
 
 .buttonsBack a{
+
   color: rgb(255, 255, 255);
-  padding: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding: 4px;
   font-size: 0.8em;
   background-color: #1E4364;
   border-radius: 10px;
@@ -345,7 +343,7 @@ header{
   .content h2{
     color: rgb(255, 255, 255);
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 32px;
   }
   
@@ -447,7 +445,7 @@ header{
   .content h2{
     color: rgb(255, 255, 255);
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 32px;
   }
   
@@ -468,7 +466,8 @@ header{
 
   .titleSection{
 
-    margin-top: 80px;
+    margin-top:50px;
+    margin-bottom: 40px;
     grid-column: 1/5;
     font-size: 1.5em;
   }
@@ -476,16 +475,31 @@ header{
 
   .titleSection p{
     grid-column: 1/5;
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: 0.9em;
   }
   
+
   .buttonsBack{
     grid-column: 1/5;
-    margin-bottom: 70px;
     display: grid;
     grid-template-columns: repeat(8,1fr);
-    column-gap: 40px;
+    border: 2px dashed var(--blue-medium-color);
+    border-left: none;
+    border-right: none;
+    grid-column: 1/5;
+    margin-bottom: 70px;
+  }
+  
+  .buttonsBack a{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 0.8em;
+    background-color: #1E4364;
+    border-radius: 10px;
+    text-decoration: none;
   }
 
 

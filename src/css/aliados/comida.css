@@ -266,6 +266,7 @@ header{
 
 .buttonsBack a{
   color: rgb(255, 255, 255);
+  padding: 4px;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -336,7 +337,7 @@ header{
   .content h2{
     color: rgb(255, 255, 255);
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 32px;
   }
   
@@ -438,7 +439,7 @@ header{
   .content h2{
     color: rgb(255, 255, 255);
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 32px;
   }
   
@@ -459,7 +460,8 @@ header{
 
   .titleSection{
 
-    margin-top: 80px;
+    margin-top:50px;
+    margin-bottom: 40px;
     grid-column: 1/5;
     font-size: 1.5em;
   }
@@ -467,7 +469,7 @@ header{
 
   .titleSection p{
     grid-column: 1/5;
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: 0.9em;
   }
   
@@ -495,7 +497,7 @@ header{
   
   .buttonsBack a{
     color: rgb(255, 255, 255);
-    padding: 6px;
+    padding: 5px;
     margin-top: 10px;
     font-size: 1em;
     background-color: #1E4364;
