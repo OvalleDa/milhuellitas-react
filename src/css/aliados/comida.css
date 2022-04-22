@@ -266,7 +266,8 @@ header{
 
 .buttonsBack a{
   color: rgb(255, 255, 255);
-  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   margin-top: 10px;
   font-size: 0.8em;
   background-color: #1E4364;

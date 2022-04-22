@@ -117,7 +117,6 @@ header{
   grid-template-columns: repeat(3,1fr);
   row-gap: 10px;
   column-gap: 5px;
-  background-image: url(aliados/fondo2.png);
   background-size: 300px;
   margin: 15px;
 }
@@ -265,6 +264,7 @@ header{
   color: rgb(255, 255, 255);
   padding: 10px;
   margin-top: 10px;
+  margin-bottom: 10px;
   font-size: 0.8em;
   background-color: #1E4364;
   border-radius: 10px;
@@ -418,7 +418,7 @@ header{
     column-gap: 20px;
     background-image: url(aliados/fondo2.png);
     background-size: 800px;
-    margin: 10px;
+    margin-left: 60px;
   }
   
 
@@ -440,7 +440,7 @@ header{
 
   .card{
     border-radius: 20px;
-    width: 300px;
+    width: 250px;
     height: 300px;
   }
 

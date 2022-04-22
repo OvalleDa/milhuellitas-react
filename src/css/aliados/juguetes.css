@@ -75,7 +75,7 @@ header{
     display: flex;
     width: 400%;
     padding: 0;
-    animation: slide 16s infinite alternate ease-in-out;
+    animation: slide 16s infinite  ease-in-out;
   }  
   
 .banner li{
@@ -267,6 +267,7 @@ header{
   color: rgb(255, 255, 255);
   padding: 10px;
   margin-top: 10px;
+  margin-bottom: 10px;
   font-size: 0.8em;
   background-color: #1E4364;
   border-radius: 10px;
