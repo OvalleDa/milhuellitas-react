@@ -410,7 +410,7 @@ header{
     column-gap: 20px;
     background-image: url(aliados/fondo2.png);
     background-size: 800px;
-    margin: 10px;
+    margin-left: 60px;
   }
   
 
@@ -432,7 +432,7 @@ header{
 
   .card{
     border-radius: 20px;
-    width: 300px;
+    width: 250px;
     height: 300px;
   }
 
@@ -493,9 +493,7 @@ header{
     grid-column: 5/6;
   }
 
-  .cuidados{
 
-  }
 
   .buttonsBack a{
     color: rgb(255, 255, 255);
