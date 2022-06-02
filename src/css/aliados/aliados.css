@@ -39,18 +39,9 @@ nav {
     z-index: 1;
 }
 
-main {
-    margin-top: 100px;
-}
 
-body{
-    font-family: 'Poppins',sans-serif;
-    background-image: url(../../assets/img/aliados/fondo.png);
-    background-position: left;
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-}
+
+
 
 header{
   grid-column: 1/5;
@@ -58,10 +49,11 @@ header{
   color: var(--white-color);
 }
 
-main{
+.main{
   grid-column: 1/5;
   display: grid;
   grid-template-columns: repeat(4,1fr);
+  margin-top: 100px;
 }
 
 
@@ -119,6 +111,7 @@ width: 100%;
   grid-column: 1/5;
   font-size: 0.5em;
   margin: 10px ;
+  text-align: center;
 }
 
 .cardsProducts{  
@@ -157,7 +150,7 @@ width: 100%;
 
 .card{
   position: relative;
-  width: 140px;
+  width: 150px;
   height: 250px;
   background: var(--blue-dark-color);
   border-radius: 20px;
@@ -184,7 +177,7 @@ width: 100%;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 1000;
+ 
   width: 100%;
   height: 220px;
   transition: 0.5s;
@@ -212,7 +205,7 @@ width: 100%;
   height: 100px;
   text-align: center;
   transition: 1s;
-  z-index: 10;
+
 }
 
 .card:hover .contentBx{
@@ -488,91 +481,30 @@ width: 100%;
   max-width: 100%;
 }
 
-.footer{
-  grid-column: 1/5;
+
+
+
+
+@media screen and (min-width: 412px){
+  .card{
+    width: 170px;
+
+  }
 }
 
+@media screen and (min-width: 540px){
+  .card{
+    width: 200px;
+  }
 
-footer{
-  grid-column: 1/5;
+  .cardsProducts{  
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 30px;
+    grid-column: 1/5;
+  
+  }
 
-  background-color: var(--blue-dark-color);
-  padding: 10px;
-  color: var(--white-color);
-  font-size: 12px;
-  display: grid;
-  grid-template-columns: 60% auto;
-  grid-template-rows: 50% 50%;
-  grid-template-areas:"info-footer loyal-text" 
-                      "info-footer social-media"
-}
-
-footer > .info-footer {
-  grid-area: info-footer;
-}
-
-footer > .loyal-text {
-  grid-area: loyal-text;
-}
-
-footer > .social-media {
-  grid-area: social-media;
-}
-
-
-.info-footer{
-  border-right: 1px solid var(--white-color);
-}
-
-.info-footer .info{
-  margin: 2px 0;
-}
-
-.info{
-  width: 100%;
-  display: flex;
-}
-
-.info img{
-  margin-right: 10px;
-  width: 24px;
-}
-
-.loyal-text{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 5px;
-  margin-left: 5px;
-}
-
-.loyal-text p{
-  text-align: center;
-}
-
-.social-media{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 5px;
-  text-align: center;
-  border-top: 1px solid var(--white-color);
-  padding: 0 5px;
-}
-
-.social-media p{
-  text-align: center;
-}
-
-.social-media div{
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-}
-
-.social-media img{
-  margin:0 5px
 }
 
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import '../../css/aliados/aliados.css'
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
@@ -25,7 +26,7 @@ const Aliados = () => {
   return (
     <div>
         <Header></Header>
-        <main>
+        <div className="main">
         <section class="fondo">
     
             <section class="banner">
@@ -51,7 +52,7 @@ const Aliados = () => {
                   </div>
                   <div class="contentBx">
                     <h2>Accesorios</h2>
-                    <a href="accesorios.html">Mirar productos</a>
+                    <Link to="/aliados/accesorios"></Link>
                   </div>
                 </div>
               </div>
@@ -298,7 +299,7 @@ const Aliados = () => {
                 </div></div>
               </div> 
             </section>
-    </main>
+    </div>
     <Footer></Footer>
     </div>
   )
