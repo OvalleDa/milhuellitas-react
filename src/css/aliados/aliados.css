@@ -255,7 +255,7 @@ width: 100%;
 
 
 
-.contentBx .boton-principal{
+.contentBx a{
   display: inline-block;
   padding: 1px;
   background: var(--blue-medium-color);
@@ -460,7 +460,7 @@ width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-
+  z-index: 1;
   transform: translateY(100px);
 }
 
@@ -500,15 +500,9 @@ width: 100%;
   .cardsProducts{  
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin: 70px;
+    margin: 30px;
     grid-column: 1/5;
   
-  }
-
-  .alliedBrands{
-
-    margin: 50px;
-
   }
 
 }
@@ -658,7 +652,7 @@ width: 100%;
   font-size: 30px;
 }
 
-.contentBx .boton-principal{
+.contentBx a{
   background-color: #4980b1;
   font-size: 20px;
 }
@@ -793,7 +787,7 @@ width: 100%;
   text-align: center;
 }
 
-.contentBx .boton-principal{
+.contentBx a{
   background-color: var(--blue-dark-color);
   font-size: 20px;
   padding: 10px;

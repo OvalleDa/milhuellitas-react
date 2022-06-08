@@ -52,7 +52,7 @@ const Aliados = () => {
                   </div>
                   <div class="contentBx">
                     <h2>Accesorios</h2>
-                    <Link to="/aliados/accesorios" className='boton-principal'>Mirar productos</Link>
+                    <Link to="/aliados/accesorios"></Link>
                   </div>
                 </div>
               </div>
@@ -64,7 +64,7 @@ const Aliados = () => {
                   </div>
                   <div class="contentBx">
                     <h2>Comida</h2>
-                    <Link to="/aliados/comida" className='boton-principal'>Mirar productos</Link>
+                    <a href="comida.html">Mirar productos</a>
                   </div>
                 </div>
               </div>
@@ -76,7 +76,7 @@ const Aliados = () => {
                   </div>
                   <div class="contentBx">
                     <h2>Juguetes</h2>
-                    <Link to="/aliados/cuidados" className='boton-principal'>Mirar productos</Link>
+                    <a href="juguetes.html">Mirar productos</a>
                   </div>
                 </div>
               </div>
@@ -88,7 +88,7 @@ const Aliados = () => {
                   </div>
                   <div class="contentBx">
                     <h2>Cuidados</h2>
-                    <Link to="/aliados/juguetes" className='boton-principal'>Mirar productos</Link>
+                    <a href="cuidados.html"><p>Mirar productos</p></a>
                   </div>
                 </div>
               </div>
@@ -206,10 +206,9 @@ const Aliados = () => {
                 <div class="aliados">
                     <div class="face face1">
                         <div class="content">
-                            <h3>
-                                <a href="">@VetZoo</a>
-                            </h3>
-                            <p>Porque tu mascota merece los mejores cuidados veterinarios</p>
+                            <div class="icon">
+                                <img src={Aliados5}/>
+                            </div>
                         </div>
                     </div>
                     <div class="face face2">
