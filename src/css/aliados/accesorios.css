@@ -170,11 +170,11 @@
   box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
 }
 
-.content{
+.contente{
   width: 100%;
   height: 100%;
   border-radius: 12px;
-  background: rgba(99, 99, 99, 0.603);
+  background: rgba(129, 25, 25, 0.603);
   opacity: 0;
   transition: .5s;
   display: flex;
@@ -183,13 +183,13 @@
   flex-direction: column;
 }
 
-.content h2{
+.contente h2{
   color: rgb(255, 255, 255);
   text-align: center;
   margin-top: 30px;
 }
 
-.content a{
+.contente a{
   background-color: var(--blue-dark-color);
   color: rgb(255, 255, 255);
   margin-top: 20px;
@@ -199,13 +199,13 @@
   margin-bottom: 50px;
 }
 
-.content a:hover{
+.contente a:hover{
   background-color: var(--blue-medium-color)
 }
 
-.card:hover .content {
+.card:hover .contente {
   opacity: 5;
-  background: rgba(99, 99, 99, 0.603);
+  background: rgba(34, 29, 29, 0.603);
 
 }
 
@@ -229,7 +229,7 @@
 
 }
 
-.buttonsBack a{
+.buttonsBack .link{
 
   color: rgb(255, 255, 255);
   padding: 4px;
@@ -250,7 +250,7 @@
 
 
 
-.buttonsBack a:hover{
+.buttonsBack .link:hover{
   background-color: #86aee2;
   color: rgb(3, 3, 3);
 }
@@ -305,14 +305,14 @@
     height: 300px;
   }
 
-  .content h2{
+  .contente h2{
     color: rgb(255, 255, 255);
     text-align: center;
     margin-top: 50px;
     font-size: 32px;
   }
   
-  .content a{
+  .contente a{
     background-color: var(--blue-dark-color);
     color: rgb(51, 51, 51);
     font-weight: 800;
@@ -322,7 +322,7 @@
     margin-bottom: 60px;
   }
 
-  .content a:hover{
+  .contente a:hover{
     background-color: var(--blue-light);
     color: var(--white-color);
   }
@@ -349,7 +349,7 @@
     column-gap: 40px;
   }
   
-  .buttonsBack a{
+  .buttonsBack .link{
     color: rgb(255, 255, 255);
     padding: 6px;
     margin-top: 10px;
@@ -359,13 +359,13 @@
     text-decoration: none;
   }
   
-  .buttonsBack a:hover{
+  .buttonsBack .link:hover{
     background-color: #86aee2;
     color: rgb(255, 255, 255);
   }
-  .card:hover .content {
+  .card:hover .contente {
     opacity: 5;
-    background: rgba(99, 99, 99, 0.603);
+    background: rgba(95, 52, 52, 0.603);
   
   }
   
@@ -412,14 +412,14 @@
     height: 300px;
   }
 
-  .content h2{
+  .contente h2{
     color: rgb(255, 255, 255);
     text-align: center;
     margin-top: 50px;
     font-size: 32px;
   }
   
-  .content a{
+  .contente a{
     background-color: var(--blue-dark-color);
     color: rgb(255, 255, 255);
     font-weight: 800;
@@ -429,9 +429,32 @@
     margin-bottom: 60px;
   }
 
-  .content a:hover{
-    background-color:var(--blue-light);;
-    color: var(--blue-dark-color);
+
+  
+  .contente h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .contente a{
+    background-color: var(--blue-dark-color);
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 6px;
+    margin-bottom: 50px;
+  }
+  
+  .contente a:hover{
+    background-color: var(--blue-medium-color)
+  }
+  
+  .card:hover .contente {
+    opacity: 5;
+    background: rgba(83, 9, 9, 0.603);
+  
   }
 
   .titleSection{
@@ -461,7 +484,7 @@
     margin-bottom: 70px;
   }
   
-  .buttonsBack a{
+  .buttonsBack .link{
     color: rgb(255, 255, 255);
     padding: 10px;
     margin-top: 10px;
@@ -485,14 +508,14 @@
     grid-column: 5/6;
   }
 
-  .card:hover .content {
+  .card:hover .contente {
     opacity: 5;
-    background: rgba(99, 99, 99, 0.603);
+    background: rgba(255, 132, 132, 0.274);
   
   }
 
   
-  .buttonsBack a{
+  .buttonsBack .link{
     color: rgb(255, 255, 255);
     padding: 6px;
     margin-top: 10px;
@@ -502,7 +525,7 @@
     text-decoration: none;
   }
   
-  .buttonsBack a:hover{
+  .buttonsBack .link:hover{
     background-color: #86aee2;
     color: rgb(255, 255, 255);
   }

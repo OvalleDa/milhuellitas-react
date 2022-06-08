@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../../components/header/Header'
+import { Link } from 'react-router-dom';
 import '../../css/aliados/accesorios.css'
 import Banner5 from '../../assets/img/aliados/camagatobanner.png'
 import Banner6 from '../../assets/img/aliados/banneraccesorios.png'
@@ -30,10 +31,11 @@ const Accesorios = () => {
     </section>
 
     <section class="buttonsBack">
-      <a class="accesorios"href="accesorios.html">Accesorios</a>
-      <a class="comida" href="comida.html">Comida</a>
-      <a class="juguetes"href="juguetes.html">Juguetes</a>
-      <a class="cuidados" href="cuidados.html">Cuidados</a>
+
+      <Link to="/aliados/accesorios" class="accesorios link" >Accesorios</Link>
+      <Link to="/aliados/comida" class="comida link" >Comida</Link>
+      <Link to="/aliados/juguetes" class="juguetes link" >Juguetes</Link>
+      <Link to="/aliados/cuidados" class="cuidados link" >Cuidados</Link>
   </section>  
     
 
@@ -41,84 +43,84 @@ const Accesorios = () => {
     <section class="alliedFood">
 
         <div class="card a1">
-            <div class="content">
+            <div class="contente">
                 <h2>Comedores</h2>
                 <a href="#">Ver tienda</a>
             </div>
         </div>
 
         <div class="card a2">
-            <div class="content">
+            <div class="contente">
                 <h2>Peluches</h2>
                 <a href="#">Ver tienda</a>
             </div>
         </div>
 
         <div class="card a3">
-            <div class="content">
+            <div class="contente">
                 <h2>Correas</h2>
                 <a href="#">Ver tienda</a>
             </div>
         </div>
 
         <div class="card a4">
-            <div class="content">
+            <div class="contente">
                 <h2>Gimnasios</h2>
                 <a href="#">Ver tienda</a>
             </div>
         </div>
 
         <div class="card a5">
-            <div class="content">
+            <div class="contente">
                 <h2>Camas</h2>
                 <a href="#">Ver tienda</a>
             </div>
         </div>
 
         <div class="card a6">
-            <div class="content">
+            <div class="contente">
                 <h2>Kits</h2>
                 <a href="#">Ver tienda</a>
             </div>
         </div>
 
         <div class="card a7">
-            <div class="content">
+            <div class="contente">
                 <h2>Pañoletas</h2>
                 <a href="#">Ver tienda</a>
             </div>
         </div>
 
         <div class="card a8">
-            <div class="content">
+            <div class="contente">
                 <h2>Mochilas</h2>
                 <a href="#">Ver tienda</a>
             </div>
         </div>
 
         <div class="card a9">
-            <div class="content">
+            <div class="contente">
                 <h2>Retractiles</h2>
                 <a href="#">Ver tienda</a>
             </div>
         </div>
 
         <div class="card a10">
-            <div class="content">
+            <div class="contente">
                 <h2>Areneros</h2>
                 <a href="#">Ver tienda</a>
             </div>
         </div>
 
         <div class="card a11">
-            <div class="content">
+            <div class="contente">
                 <h2>Arneses</h2>
                 <a href="#">Ver tienda</a>
             </div>
         </div>
 
         <div class="card a12">
-            <div class="content">
+            <div class="contente">
                 <h2>Placas</h2>
                 <a href="#">Ver tienda</a>
             </div>

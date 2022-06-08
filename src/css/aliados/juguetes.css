@@ -22,41 +22,7 @@
     font-family: var(--poppins-font);
 }
 
-header {
-    width: 100%;
-}
 
-nav {
-    height: 100px;
-    width: 100%;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    background-image: url(../../assets/img/aliados/header-backgrond.png);
-    position: fixed;
-    top: 0;
-    z-index: 1;
-}
-
-main {
-    margin-top: 100px;
-}
-body{
-    font-family: 'Poppins',sans-serif;
-    background-image: url(../../assets/img/aliados/fondo.png);
-    background-position: left;
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-}
-
-
-header{
-    grid-column: 1/5;
-    background-color: var(--blue-dark-color);
-    color: var(--white-color);
-  }
   
   main{
     grid-column: 1/5;
@@ -118,20 +84,20 @@ header{
   display: grid;
   grid-template-columns: repeat(3,1fr);
   row-gap: 10px;
-  background-image: url(aliados/fondo-prn.png);
+  background-image: url(../../assets/img/aliados/fondo-prn.png);
   background-size: 500px;
 
   margin: 15px;
 }
 
-.a1{
+.c1{
   background-image: url(../../assets/img/aliados/jueguetes1.png);
   background-size: 250px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.a1, .a3, .a5, .a7, .a9, .a11{
+.c1, .c3, .c5, .c7, .c9, .c11{
     grid-column: 1/2;
     background-size: 50%;
     background-size: cover;
@@ -140,7 +106,7 @@ header{
 
 
 
-.a2, .a4, .a6, .a8, .a10 , .a12{
+.c2, .c4, .c6, .c8, .c10 , .c12{
   grid-column: 3/4;
   background-size: 250px;
   background-size: cover;
@@ -148,51 +114,51 @@ header{
 }
 
 
-.a2{
+.c2{
   background-image: url(../../assets/img/aliados/jueguetes2.jpg);
 }
 
-.a3{
+.c3{
   background-image: url(../../assets/img/aliados/jueguetes3.png);
 }
 
 
-.a4{
+.c4{
 
   background-image: url(../../assets/img/aliados/juguetes4.png)
 
 }
 
-.a5{
+.c5{
   background-image: url(../../assets/img/aliados/juguetes5.png);
 
 }
 
-.a6{
+.c6{
   background-image: url(../../assets/img/aliados/juguetes6.png);
 }
 
-.a7{
+.c7{
   background-image: url(../../assets/img/aliados/juguetes8.png);
 }
 
-.a8{
+.c8{
   background-image: url(../../assets/img/aliados/juguetes7.png);
 }
 
-.a9{
+.c9{
   background-image: url(../../assets/img/aliados/juguetes9.jpg);
 }
 
-.a10{
+.c10{
   background-image: url(../../assets/img/aliados/juguetes10.png);
 }
 
-.a11{
+.c11{
   background-image: url(../../assets/img/aliados/juguetes11.png);
 }
 
-.a12{
+.c12{
   background-image: url(../../assets/img/aliados/juguetes12.jpg);
 }
 
@@ -314,26 +280,26 @@ header{
     grid-template-columns: repeat(4,1fr);
     row-gap: 40px;
     column-gap: 15px;
-    background-image: url(aliados/fondo2.png);
+    background-image: url(../../assets/img/aliados/fondo2.png);
     background-size: 600px;
     margin: 10px;
   }
   
 
   
-  .a1, .a5, .a9{
+  .c1, .c5, .c9{
     grid-column: 1/2;
   }
 
-  .a2, .a6, .a10{
+  .c2, .c6, .c10{
     grid-column: 2/3;
   }
 
-  .a3, .a7, .a11{
+  .c3, .c7, .c11{
     grid-column: 3/4;
   }
 
-  .a4, .a8, .a12{
+  .c4, .c8, .c12{
     grid-column: 4/5;
   }
 
@@ -417,25 +383,25 @@ header{
     grid-template-columns: repeat(4,1fr);
     row-gap: 70px;
     column-gap: 20px;
-    background-image: url(aliados/fondo2.png);
+    background-image: url(../../assets/img/aliados/fondo2.png);
     background-size: 800px;
     margin-left: 60px;
   }
   
 
-  .a1, .a5, .a9{
+  .c1, .c5, .c9{
     grid-column: 1/2;
   }
 
-  .a2, .a6, .a10{
+  .c2, .c6, .c10{
     grid-column: 2/3;
   }
 
-  .a3, .a7, .a11{
+  .c3, .c7, .c11{
     grid-column: 3/4;
   }
 
-  .a4, .a8, .a12{
+  .c4, .c8, .c12{
     grid-column: 4/5;
   }
 
@@ -662,153 +628,18 @@ header{
 
 
 
-footer{
-    grid-column: 1/5;
-    width: 100%;
-    background-color: var(--blue-dark-color);
-    padding: 10px;
-    color: var(--white-color);
-    font-size: 12px;
-    display: grid;
-    grid-template-columns: 60% auto;
-    grid-template-rows: 50% 50%;
-    grid-template-areas:"info-footer loyal-text" 
-                        "info-footer social-media"
-}
 
-footer > .info-footer {
-    grid-area: info-footer;
-  }
-  
-footer > .loyal-text {
-    grid-area: loyal-text;
-  }
-  
-footer > .social-media {
-    grid-area: social-media;
-  }
-
-
-.info-footer{
-    border-right: 1px solid var(--white-color);
-}
-
-.info-footer .info{
-    margin: 2px 0;
-}
-
-.info{
-    width: 100%;
-    display: flex;
-}
-
-.info img{
-    margin-right: 10px;
-    width: 24px;
-}
-
-.loyal-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-    margin-left: 5px;
-}
-
-.loyal-text p{
-    text-align: center;
-}
-
-.social-media{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 5px;
-    text-align: center;
-    border-top: 1px solid var(--white-color);
-    padding: 0 5px;
-}
-
-.social-media p{
-    text-align: center;
-}
-
-.social-media div{
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-}
-
-.social-media img{
-    margin:0 5px
-}
 
 
 
 @media screen and (min-width: 768px){
-   .info-footer{
-       display: flex;
-       flex-direction: row;
-       justify-content: space-around;
-   }
 
-   .pte1{
-    border-right: 1px solid var(--white-color);
-   }
-
-   .info-pte{
-       padding: 0 10px;
-   }
-
-   .info img{
-    width: 27px;
-    }
-
-   .loyal-text{
-      height: 100%;
-   }
-
-   .social-media{
-       border-top: none;
-       border-left: 1px solid var(--white-color);
-   }
-
-   .social-media img{
-    width: 32px;
-    margin: 0 10px;
-    }
-
-   footer{
-       grid-template-rows: 100%;
-       grid-template-columns: 55% auto auto; 
-       grid-template-areas: "info-footer loyal-text social-media";
-   }
 }
 
 @media screen and (min-width: 1024px){
-    footer{
-        font-size: 14.5px;
-    }
 
-    .info-pte{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .info img{
-        width: 30px;
-    }
-
-    .social-media img{
-        width: 40px;
-        margin: 0 15px;
-    }
 }
 
 @media screen and (min-width: 1200px){
-    .info-pte{
-        padding: 0 5%;
-    }
+
 }
