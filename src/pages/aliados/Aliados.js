@@ -52,7 +52,7 @@ const Aliados = () => {
                   </div>
                   <div class="contentBx">
                     <h2>Accesorios</h2>
-                    <Link to="/aliados/accesorios"></Link>
+                    <Link to="/aliados/accesorios" className="link">Mirar productos</Link>
                   </div>
                 </div>
               </div>
@@ -64,7 +64,7 @@ const Aliados = () => {
                   </div>
                   <div class="contentBx">
                     <h2>Comida</h2>
-                    <a href="comida.html">Mirar productos</a>
+                    <Link to="/aliados/comida" className="link">Mirar productos</Link>
                   </div>
                 </div>
               </div>
@@ -76,7 +76,7 @@ const Aliados = () => {
                   </div>
                   <div class="contentBx">
                     <h2>Juguetes</h2>
-                    <a href="juguetes.html">Mirar productos</a>
+                    <Link to="/aliados/juguetes" className="link">Mirar productos</Link>
                   </div>
                 </div>
               </div>
@@ -88,7 +88,7 @@ const Aliados = () => {
                   </div>
                   <div class="contentBx">
                     <h2>Cuidados</h2>
-                    <a href="cuidados.html"><p>Mirar productos</p></a>
+                    <Link to="/aliados/cuidados" className="link">Mirar productos</Link>
                   </div>
                 </div>
               </div>

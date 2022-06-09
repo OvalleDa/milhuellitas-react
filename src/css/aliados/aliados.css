@@ -255,7 +255,7 @@ width: 100%;
 
 
 
-.contentBx a{
+.contentBx .link{
   display: inline-block;
   padding: 1px;
   background: var(--blue-medium-color);
@@ -271,7 +271,7 @@ width: 100%;
 }
 
 
-.card:hover .contentBx a{
+.card:hover .contentBx .link{
   opacity: 1;
   transform: translateY(0px);
   transition-delay: 0.20s; 
@@ -652,7 +652,7 @@ width: 100%;
   font-size: 30px;
 }
 
-.contentBx a{
+.contentBx .link{
   background-color: #4980b1;
   font-size: 20px;
 }
@@ -787,7 +787,7 @@ width: 100%;
   text-align: center;
 }
 
-.contentBx a{
+.contentBx .link{
   background-color: var(--blue-dark-color);
   font-size: 20px;
   padding: 10px;
