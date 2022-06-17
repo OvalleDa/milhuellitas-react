@@ -11,11 +11,11 @@ function Footer(){
  return(
     /*Características del componente*/
         <footer>
-            <div class="footer__information">
+            <div className="footer__information">
                 
-                <div class="information-piece primary">
+                <div className="information-piece primary">
                     
-                    <div class="information">
+                    <div className="information">
                         <img src={iconLocate} alt="Icono de ubicación"></img>
                         <div>
                             <p>Sede Chapinero</p>
@@ -23,7 +23,7 @@ function Footer(){
                         </div>
                     </div>
 
-                    <div class="information">
+                    <div className="information">
                         <img src={iconPhone} alt="Icono de teléfono"></img>
                         <div>
                             <p>(+57) 312 456 7890</p>
@@ -31,15 +31,15 @@ function Footer(){
                     </div>
                 </div>
 
-                <div class="information-piece secondary">
-                    <div class="information">
+                <div className="information-piece secondary">
+                    <div className="information">
                         <img src={iconGmail} alt="Icono de gmail"></img>
                         <div>
                             <p>milhuellitas@correo. com</p>
                         </div>
                     </div>
             
-                    <div class="information">
+                    <div className="information">
                         <img src={iconClock} alt="Icono de reloj"></img>
                         <div>
                             <p>Todos los días</p> 
@@ -49,13 +49,13 @@ function Footer(){
                 </div>
             </div>
 
-            <div class="footer__loyal-text">
+            <div className="footer__loyal-text">
                 <p><strong>Textos legales</strong></p>
                 <p>Políticas de privacidad</p>
                 <p>Política de cookies</p>
             </div>
         
-            <div class="footer__social-media">
+            <div className="footer__social-media">
                 <p><strong>Síguenos en redes sociales</strong></p>
                 <div>
                     <a href="#"><img src={iconInstagram} alt="Icono de Instagram"></img></a>
